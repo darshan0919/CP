@@ -11,7 +11,7 @@
 using namespace std;
 
 /// Data Types
-#define ll long long int
+#define ll long long
 #define ld long double
 #define D double
 #define S string
@@ -230,44 +230,7 @@ public:
         ll i, n = rdd;
         S a = rds, b = rds;
         vll v = check(a);
-        // print(v);
 
-        ll state = 0;
-        for (i = n - 1; i >= 0; i--)
-        {
-            if (a[i] == b[i])
-            {
-                if (state)
-                {
-                    if (v[i])
-                    {
-                        state ^= 1;
-                    }
-                    else
-                    {
-                        cout << "NO\n";
-                        TATAA
-                    }
-                }
-            }
-            else
-            {
-                if (!state)
-                {
-                    if (v[i])
-                    {
-                        state ^= 1;
-                    }
-                    else
-                    {
-                        cout << "NO\n";
-                        TATAA
-                    }
-                }
-            }
-        }
-        cout << "YES\n";
-        TATAA
         TATAA
     }
 };
